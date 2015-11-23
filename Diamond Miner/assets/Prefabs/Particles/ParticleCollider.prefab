@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &118204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 478182}
+  - 182: {fileID: 18239298}
+  m_Layer: 0
+  m_Name: WindZone 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &141406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 439606}
+  - 33: {fileID: 3322208}
+  - 64: {fileID: 6491136}
+  - 23: {fileID: 2351302}
+  m_Layer: 0
+  m_Name: ParticleCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &141970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 422338}
+  - 182: {fileID: 18222570}
+  m_Layer: 0
+  m_Name: WindZone 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &148324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 402828}
+  - 182: {fileID: 18223790}
+  m_Layer: 0
+  m_Name: WindZone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &402828
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 148324}
+  m_LocalRotation: {x: 0, y: 0, z: -.833458066, w: .55258286}
+  m_LocalPosition: {x: -.349999994, y: 4.9000001, z: -.00999999978}
+  m_LocalScale: {x: .655427396, y: .655427277, z: .655427635}
+  m_Children: []
+  m_Father: {fileID: 439606}
+  m_RootOrder: 0
+--- !u!4 &422338
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141970}
+  m_LocalRotation: {x: -2.32830644e-10, y: 4.65661287e-10, z: -.833458066, w: .55258286}
+  m_LocalPosition: {x: -.140000001, y: -0, z: 0}
+  m_LocalScale: {x: .97427994, y: .974279881, z: .655427635}
+  m_Children: []
+  m_Father: {fileID: 439606}
+  m_RootOrder: 1
+--- !u!4 &439606
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141406}
+  m_LocalRotation: {x: -.00676879333, y: .00359949097, z: .938968301, w: -.343918383}
+  m_LocalPosition: {x: -93.9000015, y: 87.1999969, z: -59.7999992}
+  m_LocalScale: {x: 8.55139923, y: 1.52572143, z: 9.56650066}
+  m_Children:
+  - {fileID: 402828}
+  - {fileID: 422338}
+  - {fileID: 478182}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &478182
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118204}
+  m_LocalRotation: {x: -6.98491931e-10, y: 4.65661287e-10, z: -.833458006, w: .55258292}
+  m_LocalPosition: {x: -.140000254, y: -0, z: -0}
+  m_LocalScale: {x: 1.44824851, y: 1.44824791, z: .655427635}
+  m_Children: []
+  m_Father: {fileID: 439606}
+  m_RootOrder: 2
+--- !u!23 &2351302
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141406}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3322208
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141406}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!64 &6491136
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141406}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!182 &18222570
+WindZone:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141970}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 42.5
+  m_WindMain: 554.200012
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 1
+  m_WindPulseFrequency: .00999999978
+--- !u!182 &18223790
+WindZone:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 148324}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 415.799988
+  m_WindMain: 96.5999985
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 1
+  m_WindPulseFrequency: .00999999978
+--- !u!182 &18239298
+WindZone:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118204}
+  m_Enabled: 1
+  m_Mode: 1
+  m_Radius: 78.4000015
+  m_WindMain: 229.100006
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 1
+  m_WindPulseFrequency: .00999999978
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 141406}
+  m_IsPrefabParent: 1

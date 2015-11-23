@@ -1,0 +1,23 @@
+Key,English,Pirate
+Language,English,Scurvy Pirate
+Tutorial Description,"Find as many gems as you can before you run out\nof digs. Watch out for the bombs!\n\nHint: Look for where the gems sparkle the brightest\nfor the biggest reward!","Find as many diamonds as you can before you run out of digs.\nWatch out for the bombs!\nHint: Look for where the diamonds sparkle the brightest\nfor the biggest reward!"
+Tutorial LMB,Dig,Dig
+Tutorial Escape,Esc,Esc
+Tutorial Quit,Quit,Quit
+Button Start,Start,Ahoy!
+Level Complete Description,Nice Work!,Yohoho!
+Game Complete Description,You Win!,Ye Win!
+Game Over Description,Game Over,Ye lost th' battle
+Button Retry,Retry,Retry
+Button Restart,Start Over,Avast!
+Button Next,Next,Next
+HUD Level,Level: {0},Level: {0}
+HUD Digs,Digs: {0},Digs: {0}
+HUD Rank,Rank: {0},Booty: {0}
+HUD Score,Gems Found: {0},Gems Found: {0}
+HUD Next Rank,To Next Rank: {0},To Next Rank: {0}
+Button Hints,Hints: {0},Hints: {0}
+Rank Gold,Gold,Gold
+Rank Silver,Silver,Silver
+Rank Bronze,Bronze,Bronze
+Rank Unranked,Unranked,Unranked
